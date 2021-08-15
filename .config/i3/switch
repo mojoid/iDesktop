@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+source $HOME/.idesktop
+
+if [[ $THEME == "iLight" ]]; then
+	sed -i 's_THEME=.*_THEME="iDark"_' ~/.idesktop
+elif [[ $THEME == "iDark" ]]; then
+	sed -i 's_THEME=.*_THEME="iLight"_' ~/.idesktop
+fi
+# kill ui
+killall dunst
+~/.config/i3/startup
+&> /dev/null

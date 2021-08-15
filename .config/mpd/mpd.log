@@ -1,0 +1,119 @@
+Feb 28 10:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:16 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:16 : update: added /DJ SPONGEBOB VS RAP GOD REMIX KOPLO FULL BASS.mp3
+Feb 28 10:16 : update: added /08 Tidurlah.mp3
+Feb 28 10:16 : update: added /SUB URBAN - CradlesMusic Video.mp3
+Feb 28 10:16 : update: added File_Favorite/AUDI_Menangis Semalam.mp3
+Feb 28 10:16 : update: added File_Favorite/Semua Memang Salahku gita.mp3
+Feb 28 10:16 : update: added File_Favorite/00. Budak Saha.mp3
+Feb 28 10:16 : update: added File_Favorite/Wulan Merindu.MP3
+Feb 28 10:16 : update: added File_Favorite/Janji Manismu.mp3
+Feb 28 10:16 : update: added File_Favorite/Maaf...(Harus Pergi).mp3
+Feb 28 10:16 : update: added File_Favorite/Sejenak.mp3
+Feb 28 10:16 : update: added File_Favorite/Pergi Saja.mp3
+Feb 28 10:16 : update: added File_Favorite/Kekasih Terbaik.mp3
+Feb 28 10:16 : update: added File_Favorite/Kekasih Yang Tak Danggap.mp3
+Feb 28 10:16 : update: added File_Favorite/Baiknya.mp3
+Feb 28 10:16 : update: added File_Favorite/Aishiteru 2.mp3
+Feb 28 10:16 : update: added File_Favorite/Maafkan aku mencintai kekasihmu.MP3
+Feb 28 10:16 : update: added File_Favorite/Sampai Mati.mp3
+Feb 28 10:16 : update: added File_Favorite/Tak Pernah Sengaja.mp3
+Feb 28 10:16 : update: added File_Favorite/Hawa.mp3
+Feb 28 10:16 : update: added File_Favorite/Lagu Cinta.mp3
+Feb 28 10:16 : update: added File_Favorite/Seisi Hatiku.mp3
+Feb 28 10:16 : update: added File_Favorite/Lenter Cinta.mp3
+Feb 28 10:16 : update: added File_Favorite/Terpanah Asmara.mp3
+Feb 28 10:16 : update: added File_Favorite/Berharap Kau Kembali.mp3
+Feb 28 10:16 : update: added File_Favorite/Benci (Ballad Version).mp3
+Feb 28 10:16 : update: added File_Favorite/Tentangmu.mp3
+Feb 28 10:16 : update: added File_Favorite/Freestyle.mp3
+Feb 28 10:16 : update: added File_Favorite/Matahariku.mp3
+Feb 28 10:16 : update: added /Stars and Rabbit - Like It Here.mp3
+Feb 28 10:16 : update: added /Unknown Brain - Why Do I (feat. Bri Tolani) (Lyrics Video).mp3
+Feb 28 10:16 : update: added /ANDMESH - CINTA LUAR BIASA (Cover by Gita Trilia).mp3
+Feb 28 10:16 : update: added /Rio Febrian - Aku Bertahan.mp3
+Feb 28 10:16 : update: added /Kalingga - Sumpah Palapa.mp3
+Feb 28 10:16 : update: added random/DJ SPONGEBOB VS RAP GOD REMIX KOPLO FULL BASS.mp3
+Feb 28 10:16 : update: added random/08 Tidurlah.mp3
+Feb 28 10:16 : update: added random/SUB URBAN - CradlesMusic Video.mp3
+Feb 28 10:16 : update: added random/Stars and Rabbit - Like It Here.mp3
+Feb 28 10:16 : update: added random/Unknown Brain - Why Do I (feat. Bri Tolani) (Lyrics Video).mp3
+Feb 28 10:16 : update: added random/ANDMESH - CINTA LUAR BIASA (Cover by Gita Trilia).mp3
+Feb 28 10:16 : update: added random/Rio Febrian - Aku Bertahan.mp3
+Feb 28 10:16 : update: added random/Kalingga - Sumpah Palapa.mp3
+Feb 28 10:16 : update: added random/DJ SATU HATI SAMPAI MATI SLOW REMIX FULLBASS.mp3
+Feb 28 10:16 : update: added random/Hip Hop Rap Linting Daun Narkoba.mp3
+Feb 28 10:16 : update: added random/Dance Monkey - Tones And I - New Remix Full Bass 2019 By Nanda Lia.mp3
+Feb 28 10:16 : update: added random/05 Untuk Perempuan yang Sedang di Pelukan.mp3
+Feb 28 10:16 : update: added random/Exist - Mencari Alasan Cover ( Faline Andih ).mp3
+Feb 28 10:16 : update: added random/Di Bawah Rembulan - Parahyena.mp3
+Feb 28 10:16 : update: added random/Payung Teduh - Diujung Malam.mp3
+Feb 28 10:16 : update: added random/DJ ENTAH APA YANG MERASUKIMU FULL BASS TERBARU 2019.mp3
+Feb 28 10:16 : update: added /DJ SATU HATI SAMPAI MATI SLOW REMIX FULLBASS.mp3
+Feb 28 10:16 : update: added /Hip Hop Rap Linting Daun Narkoba.mp3
+Feb 28 10:16 : update: added /Dance Monkey - Tones And I - New Remix Full Bass 2019 By Nanda Lia.mp3
+Feb 28 10:16 : update: added /05 Untuk Perempuan yang Sedang di Pelukan.mp3
+Feb 28 10:16 : update: added /Exist - Mencari Alasan Cover ( Faline Andih ).mp3
+Feb 28 10:16 : update: added /Di Bawah Rembulan - Parahyena.mp3
+Feb 28 10:16 : update: added /Payung Teduh - Diujung Malam.mp3
+Feb 28 10:16 : update: added /DJ ENTAH APA YANG MERASUKIMU FULL BASS TERBARU 2019.mp3
+Feb 28 10:16 : client: [0] opened from 127.0.0.1:49792
+Feb 28 10:18 : client: [0] closed
+Feb 28 10:18 : client: [1] opened from 127.0.0.1:49794
+Feb 28 10:18 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:18 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:18 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:18 : exception: Failed to open '/home/id/Music/lagueisun.m3u.m3u': No such file or directory
+Feb 28 10:18 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:20 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:20 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:21 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:21 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:21 : player: played "random/ANDMESH - CINTA LUAR BIASA (Cover by Gita Trilia).mp3"
+Feb 28 10:21 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:21 : exception: Not playing
+Feb 28 10:21 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:22 : player: played "random/ANDMESH - CINTA LUAR BIASA (Cover by Gita Trilia).mp3"
+Feb 28 10:23 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:23 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:23 : client: [1] closed
+Feb 28 10:23 : client: [2] opened from 127.0.0.1:49800
+Feb 28 10:23 : client: [2] closed
+Feb 28 10:41 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:43 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:44 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:44 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:48 : client: [0] opened from 127.0.0.1:42656
+Feb 28 10:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:48 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:48 : player: played "08 Tidurlah.mp3"
+Feb 28 10:48 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:49 : client: [0] closed
+Feb 28 10:49 : client: [1] opened from 127.0.0.1:42658
+Feb 28 10:49 : client: [1] closed
+Feb 28 10:49 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:56 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:56 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:56 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:56 : client: [0] opened from 127.0.0.1:43740
+Feb 28 10:56 : client: [0] closed
+Feb 28 10:57 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:57 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:57 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 10:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 10:59 : exception: Failed to open '/home/id/.config/.mpd/mpdstate': No such file or directory
+Feb 28 10:59 : client: [0] opened from 127.0.0.1:56798
+Feb 28 11:02 : exception: Failed to create /home/id/.config/.mpd/mpdstate: No such file or directory
+Feb 28 11:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 11:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 11:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 28 11:03 : client: [0] opened from 127.0.0.1:56886
+Feb 28 11:04 : player: played "random/Dance Monkey - Tones And I - New Remix Full Bass 2019 By Nanda Lia.mp3"

@@ -1,0 +1,44 @@
+#!/usr/bin/bash
+
+echo 'install packages needed to fix...'
+pacman -S --noconfirm os-prober xf86-video-intel libva-intel-driver intel-ucode tlp thermald 
+
+echo 'activate service...'
+systemctl enable tlp.service
+systemctl enable thermald.service
+
+echo 'setup driver gpu...'
+echo 'setup i915 video driver..'
+cat > /etc/modprobe.d/i915.conf <<EOF
+options i915 enable_guc=2
+options i915 enabl_fbc=1
+options i915 fastboot=1
+EOF
+
+echo 'setup intel xorg driver..'
+cat > /etc/X11/xorg.conf.d/20-intel.conf << EOF
+Section "Device"
+	Identifier  "Intel Graphics"
+	Driver      "intel"
+	Option		"DRI" "3"
+	Option      "AccelMethod"  "uxa" 
+	Option      "TearFree" "true"	
+EndSection
+EOF
+
+echo 'setup touchpad driver..'
+cat > /etc/X11/xorg.conf.d/30-touchpad.conf <<EOF
+Section "InputClass"
+	Identifier "touchpad"
+	MatchIsTouchpad "on"
+	Driver "libinput"
+	Option "Tapping" "on"
+	Option "NaturalScrolling" "off"
+	Option "ScrollMethod" "twofinger"
+EndSection
+EOF
+
+echo 'update grub...'
+grub-mkconfig -o /boot/grub/grub.cfg
+
+echo Plis restart to apply setings..

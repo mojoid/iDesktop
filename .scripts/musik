@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+SDIR=$HOME/.idesktop
+source $SDIR
+
+if [ $MUSIK == ON ]; then
+	sed -i '6s_MUSIK=.*_MUSIK="OFF"_' $SDIR
+	killall mpd; killall ncmpcpp
+elif [ $MUSIK == OFF ]; then
+	sed -i '6s_MUSIK=.*_MUSIK="ON"_' $SDIR
+	mpd; urxvt -e ncmpcpp
+fi
+
+&> /dev/null
+exit

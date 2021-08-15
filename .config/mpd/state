@@ -1,0 +1,36 @@
+sw_volume: 98
+audio_device_state:1:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: play
+current: 18
+time: 204.205000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Dj Remix Cover/DJ KARTONYONO MEDOT JANJI REMIX FULL BASS.mp3
+1:Dj Remix Cover/DJ SAMBEL TERASI REMIX SLOW.mp3
+2:Folk/Fourtwnty   Aku Tenang.mp3
+3:Folk/Fourtwnty   Diskusi Senja.mp3
+4:Folk/Fourtwnty   Hitam Putih.mp3
+5:Folk/Fourtwnty   Iritasi Ringan.mp3
+6:Folk/Fourtwnty   Kusut.mp3
+7:Folk/Fourtwnty   Realita.mp3
+8:Folk/Fourtwnty   Zona Nyaman.mp3
+9:Folk/Fourtwnty - fana merah jambu ( lirik video).mp3
+10:Folk/Payung Teduh - Diujung Malam.mp3
+11:Folk/Payung Teduh - Tidurlah.mp3
+12:Folk/Payung teduh - Untuk Perempuan yang Sedang di Pelukan.mp3
+13:Folk/Stars and rabbit - I'll Go Along.mp3
+14:Folk/Stars and Rabbit - Like It Here.mp3
+15:Fav/FELIX IRWAN ADE GOVINDA FADLY PADI - TANPA BATAS WAKTU.mp3
+16:Fav/FELIX IRWAN BUDI DOREMI - LIRIK MELUKIS SENJA.mp3
+17:Fav/Fiersa Besari - Waktu Yang Salah Felix Cover.mp3
+18:Fav/KEKASIH BAYANGAN CHAKRA KHAN [ LIRIK ] FELIX IRWAN COVER.mp3
+19:Fav/KENANGLAH AKU - NAFF ( FELIX IRWAN COVER ).mp3
+20:Fav/Pongki Barata - Aku Milikmu Malam Ini Felix Cover.mp3
+playlist_end

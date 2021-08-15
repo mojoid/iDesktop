@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+# Load Global Variable
+source $HOME/.idesktop
+iLight() {
+	# Dunst
+    dunst -config ~/.config/dunst/dunstrc-left &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/ilight/.Xresources
+    # Screenshot frame color
+    sed -i '11s_SSFRAME=.*_SSFRAME="#f9f9f9"_' ~/.idesktop
+    # Polybar
+    ~/.config/polybar/material/scripts/colors-light.sh --magentalight 
+	# GTK, rofi, color theme
+    set_light
+    # Live Reload GTK Theme
+    timeout 0.1s xsettingsd -c ~/.config/i3/theme/ilight/.xsettingsd 
+    # Notify
+    $NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 2000 -u low "Light Mode" "Change Theme"
+}
+iDark() {
+	# Dunst
+    dunst -config ~/.config/dunst/dunstrc-dark-left &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/idark/.Xresources
+    # Screenshot frame color
+    sed -i '11s_SSFRAME=.*_SSFRAME="#21252B"_' ~/.idesktop
+	# Polybar
+	~/.config/polybar/material/scripts/colors-dark.sh --blue-dark 
+	# GTK, rofi, color theme
+    set_dark
+    # Live Reload GTK Theme
+    timeout 0.1s xsettingsd -c ~/.config/i3/theme/idark/.xsettingsd
+	# Notify
+    $NOTIFIER -r 13 -i "$ICONDIR/theme.png" -t 2000 -u low "Dark Mode" "Change Theme"
+}
+set_light() {
+	# Rofi
+	sed -i '5s_colorschemes/.*.rasi_colorschemes/fullscreen.rasi_' ~/.config/rofi/themes/shared/settings.rasi
+	sed -i '5s_colorschemes/.*.rasi_colorschemes/sidebar.rasi_' ~/.config/rofi/themes/sidebar/colors.rasi
+	# GTK
+	sed -i '5s_gtk-theme-name=.*_gtk-theme-name="ZorinBlue"_' ~/.gtkrc-2.0
+	sed -i '10s_gtk-theme-name=.*_gtk-theme-name=ZorinBlue_' ~/.config/gtk-3.0/settings.ini
+	# Cursor
+	sed -i '8s_Pulse-Glass-Sapphire-Small_Pulse-Glass-Amber-Small_' ~/.gtkrc-2.0
+	sed -i '3s_Pulse-Glass-Sapphire-Small_Pulse-Glass-Amber-Small_' ~/.config/gtk-3.0/settings.ini
+	sed -i 's_Inherits=.*_Inherits=Pulse-Glass-Amber-Small_g' ~/.icons/default/index.theme
+	# Icon
+	sed -i '6s_gtk-icon-theme-name=.*_gtk-icon-theme-name="ilight"_' ~/.gtkrc-2.0
+	sed -i '8s_gtk-icon-theme-name=.*_gtk-icon-theme-name=ilight_' ~/.config/gtk-3.0/settings.ini
+	sed -i '4s\icon_theme=.*\icon_theme=ilight\' ~/.config/qt5ct/qt5ct.conf
+}
+set_dark() {
+	# Rofi
+	sed -i '5s_colorschemes/.*.rasi_colorschemes/fullscreen-dark.rasi_' ~/.config/rofi/themes/shared/settings.rasi
+	sed -i '5s_colorschemes/.*.rasi_colorschemes/sidebar-dark.rasi_' ~/.config/rofi/themes/sidebar/colors.rasi
+	# GTK
+	sed -i '5s_gtk-theme-name=.*_gtk-theme-name="ZorinGrey"_' ~/.gtkrc-2.0
+	sed -i '10s_gtk-theme-name=.*_gtk-theme-name=ZorinGrey_' ~/.config/gtk-3.0/settings.ini
+	# Cursor
+	sed -i '8s_Pulse-Glass-Amber-Small_Pulse-Glass-Sapphire-Small_' ~/.gtkrc-2.0
+	sed -i '3s_Pulse-Glass-Amber-Small_Pulse-Glass-Sapphire-Small_' ~/.config/gtk-3.0/settings.ini
+	sed -i 's_Inherits=.*_Inherits=Pulse-Glass-Sapphire-Small_g' ~/.icons/default/index.theme
+	# Icon
+	sed -i '6s_gtk-icon-theme-name=.*_gtk-icon-theme-name="idark"_' ~/.gtkrc-2.0
+	sed -i '8s_gtk-icon-theme-name=.*_gtk-icon-theme-name=idark_' ~/.config/gtk-3.0/settings.ini
+	sed -i '4s\icon_theme=.*\icon_theme=idark\' ~/.config/qt5ct/qt5ct.conf
+}
+# Load rofi theme based on resolution
+~/.config/i3/scripts/change-resolution $RESOLUTION
+# Load Theme
+"$THEME"
+# Wallpaper
+~/.config/i3/scripts/wallpaper 
+&> /dev/null
+
+exit
+

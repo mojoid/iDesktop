@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+echo "install dependensi for iDesktop.."
+sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort iDesktop.txt))
+echo "plis wait.."
+echo "importing files iDesktop.."
+cp -rf {.*,*} ~/ 
+cd ~/.icons
+echo "Installing icons.."
+tar -Jxvf ilight.tar.xz 
+tar -Jxvf idark.tar.xz
+echo "installing fonts.."
+fc-cache rv
+$HOME/.config/i3/switch.sh
+&> /dev/null
+echo "apllying iDesktop.."
+sleep 5
+i3-msg "restart"
+killall picom; sleep 2; picom -b &
+rm -r $HOME/.icons/{*.tar.xz}
+rm -rf $HOME/{README.md,Other,.git,install,iDesktop.txt}
+&> /dev/null
+echo "For Firs Time.. Plis, Hit Super+Shift+R To Refresh Theme."
+echo "Hit Super+Shift+M to switch dark/light theme"
+echo "Done."
+exit
