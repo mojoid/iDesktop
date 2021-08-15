@@ -7,6 +7,7 @@ $ git clone https://github.com/mojoid/iDesktop $HOME
 ```
 
 ### install via installer_script..
+
 ```bash
 $ cd $HOME/iDesktop/ 
 $ ./install
@@ -14,6 +15,7 @@ $ ./install
 - Next, install packages aur in bellow.
 
 ### install manual..
+
 > **Install all the packages needed for iDesktop**
 ```bash
 $ sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort iDesktop.txt))
@@ -22,10 +24,20 @@ $ sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort iDesktop.txt))
 > **Install idesktop**
 ```bash
 $ cd $HOME/iDesktop/ 
+```
+```bash
 $ cp -rf {.*,*} ~/
+```
+```bash
 $ cd .icons/
+```
+```bash
 $ tar -Jxvf idark.tar.xz && tar -Jxvf ilight.tar.xz
+```
+```bash
 $ rm -r ~/iDesktop/.icons/*.tar.xz
+```
+```bash
 $ sudo cp -r {idark,ilight,Pulse-*} /usr/share/icons/
 ```
 
@@ -74,6 +86,8 @@ $ yay -S polybar
 > **Remove files that are no longer needed**
 ```bash
 $ cd $HOME
+```
+```bash
 $ rm -rf {README.md,.git,install,iDesktop.txt}
 ```
 
