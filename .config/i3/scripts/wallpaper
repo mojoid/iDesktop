@@ -8,9 +8,9 @@ if [[ "$1" == "change" ]]; then
 else
     if [[ $WALLPAPER == "DEFAULT" ]]; then
         if [[ $THEME == "iLight" ]]; then
-            feh --bg-fill ~/.wallpaper/iLight-0.png
+            feh --bg-fill ~/.wallpaper/iLight.png
         elif [[ $THEME == "iDark" ]]; then
-            feh --bg-fill ~/.wallpaper/iDark-0.png
+            feh --bg-fill ~/.wallpaper/iDark.png
         fi
     else
         feh --bg-fill $WALLPAPER
